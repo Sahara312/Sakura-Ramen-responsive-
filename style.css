@@ -1,0 +1,585 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 96px;
+  margin: 0;
+}
+
+.header {
+  height: 100vh;
+  background-image: url("./img/1_header/hero_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.bestRamen {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.sakuraLogo {
+  height: 64px;
+  width: 64px;
+}
+
+.mainContainer {
+  height: 112px;
+  position: absolute;
+  top: 0;
+  left: 160px;
+  right: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigationContainer {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  padding-right: 0;
+  gap: 16px;
+}
+
+.navigationLink {
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+
+.navigationLink:hover {
+  color: #9f0908;
+  text-shadow: 5px 5px 5px black;
+}
+
+.telLink {
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  background-color: #9f0908;
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.telLink:hover {
+  box-shadow: 5px 5px 10px black;
+  color: black;
+}
+
+.phoneLogo {
+  height: 24px;
+  width: 24px;
+}
+
+.howToOrder {
+  margin-top: 120px;
+  margin-left: 160px;
+  margin-right: 160px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hto {
+  color: #9f0908;
+  text-align: center;
+}
+
+.picAndText {
+  /*das ist der Container, in dem sich die Icons mit Text befinden*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  width: 100%; /* gibt dem Container die gesamte Breite vom übergeordneten Container */
+}
+
+.p_a_t {
+  /*das sind die einzelnen Icons mit Text*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  gap: 16px;
+}
+
+.orderIcons {
+  width: 128px;
+}
+
+.orderText {
+  font-family: "Economica", sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  text-align: center;
+}
+
+.ourMenu {
+  margin-top: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 160px;
+  padding-right: 160px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./img/3_menu/section_our_menu_bg.jpg);
+  background-size: cover;
+}
+
+.textOM {
+  color: #9f0908;
+}
+
+.OM {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.menuIcon {
+  width: 352px;
+  height: 352px;
+}
+
+.iconAndDescription {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 80px;
+}
+
+.iconAndDescriptionRight {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 80px;
+}
+
+.mealTable {
+  width: 450px;
+}
+
+.mealName {
+  font-family: "Economica", sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.mealBroth {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #675e54;
+}
+
+th {
+  text-align: start;
+  line-height: 64px;
+  padding-bottom: 8px;
+}
+
+td {
+  line-height: 32px;
+  padding-top: 8px;
+}
+
+.price {
+  text-align: end;
+}
+
+.allIconsAndDescriptions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.findUsAt {
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FUA_adress {
+  padding-left: 160px;
+  padding-right: 160px;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.FUA {
+  color: #9f0908;
+}
+
+.mapMarker {
+  height: 24px;
+  width: 24px;
+}
+
+.adress {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+  padding-bottom: 16px;
+}
+
+.socialMediaLogo {
+  width: 40px;
+  height: 40px;
+}
+
+.footer {
+  background-color: #0a141e;
+  height: 144px;
+}
+
+.logo_name {
+  height: 44px;
+}
+
+.logo_text_socialMedia {
+  padding-left: 160px;
+  padding-right: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 144px;
+}
+
+@media (max-width: 1150px) {
+  .ourMenu {
+    margin-top: 72px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .hto {
+    font-size: 72px;
+  }
+
+  .textOM {
+    font-size: 72px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .navigationLink {
+    display: none;
+  }
+
+  .mainContainer {
+    left: 16px;
+    right: 16px;
+  }
+
+  .howToOrder {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 72px;
+  }
+
+  .FUA_adress {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 72px;
+  }
+
+  .findUsAt {
+    gap: 40px;
+  }
+
+  .map {
+    padding-bottom: 0;
+  }
+
+  .footer {
+    height: 86px;
+  }
+
+  .logo_text_socialMedia {
+    height: 86px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  
+
+
+}
+
+
+
+@media (max-width: 900px) {
+  .hto {
+    font-size: 56px;
+  }
+
+
+  .iconAndDescription {
+    flex-direction: column;
+  }
+
+  .iconAndDescriptionRight {
+    flex-direction: column-reverse;
+  }
+
+  .menuIconContainer {
+    display: flex;
+    flex: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  .mealName {
+    font-size: 48px;
+  }
+
+  .mealBroth {
+    font-size: 30px;
+  }
+
+  .OM {
+    margin-bottom: 40px;
+  }
+
+  .iconAndDescription {
+    gap: 16px;
+  }
+
+  .iconAndDescriptionRight {
+    gap: 16px;
+  }
+
+  .allIconsAndDescriptions {
+    gap: 32px;
+  }
+
+  .adress {
+    font-size: 20px;
+  }
+
+  .mapMarker {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 650px) {
+  .picAndText {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .p_a_t {
+    gap: 8px;
+  }
+
+  .orderText {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  .hto {
+    font-size: 40px;
+  }
+
+  .orderIcons {
+    width: 112px;
+  }
+
+  .orderText {
+    font-size: 32px;
+  }
+
+  .textOM {
+    font-size: 56px;
+  }
+
+  .adress {
+    font-size: 16px;
+  }
+
+  .mapMarker {
+    height: 16px;
+    width: 16px;
+  }
+
+  .logo_name {
+    height: 40px;
+  }
+
+  .socialMediaLogo {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+
+    .mealTable {
+        width: 100%;
+    }
+
+    .mealName {
+        font-size: 40px;
+    }
+
+    .mealBroth {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  .bestRamen {
+    font-size: 16px;
+  }
+
+  .FUA {
+    font-size: 40px;
+  }
+
+  .logo_name {
+    height: 32px;
+  }
+
+  .socialMediaLogo {
+    width: 24px;
+    height: 24px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .menuIconContainer {
+    width: 100%;
+  }
+
+  .menuIcon {
+    width: 100%;
+    height: auto;
+  }
+
+  .textOM {
+    font-size: 48px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .telLink {
+    font-size: 16px;
+  }
+
+  .sakuraLogo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .mainContainer {
+    height: 64px;
+  }
+
+  .mealName {
+    font-size: 32px;
+  }
+
+  .mealBroth {
+    font-size: 24px;
+  }
+
+  .logo_name {
+    height: 26px;
+  }
+
+  .socialMediaLogo {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 365px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .bestRamen {
+    font-size: 16px;
+  }
+
+  .textOM {
+    font-size: 40px;
+  }
+
+  .adress {
+    font-size: 12px;
+  }
+
+  .mapMarker {
+    height: 12px;
+    width: 12px;
+  }
+}
